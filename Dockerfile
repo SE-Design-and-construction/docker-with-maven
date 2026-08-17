@@ -1,7 +1,7 @@
-# Use a specific version of OpenJDK
-FROM openjdk:19
+# Use a specific version of Java JRE
+FROM eclipse-temurin:25
 
-# Set the working directory inside docker
+# Set the working directory inside Docker
 WORKDIR /application
 
 # Copy the JAR file
